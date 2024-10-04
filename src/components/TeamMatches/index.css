@@ -55,7 +55,7 @@
 
 .recent-matches-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding-left: 0;
   margin-top: 24px;
@@ -65,4 +65,31 @@
   .recent-matches-list {
     margin-top: 32px;
   }
+}
+
+.link-button-styling {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.back-button-styling {
+  background-color: #13418b;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  height: 40px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding: 0px 10px 0px 10px;
+}
+
+.pie-chart-container {
+  display: flex;
+  justify-content: center;
+  padding-right: 200px;
+  min-height: 200px;
+  margin-bottom: 30px;
 }
